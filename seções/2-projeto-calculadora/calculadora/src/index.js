@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import Calculator from './main/Calculator';
+import CalculatorHook from './main/CalculatorHook';
 
 ReactDOM.render(
   <React.StrictMode>
     <h1>Calculadora</h1>
-    <Calculator />
+    <CalculatorHook />
   </React.StrictMode>,
   document.getElementById('root')
 );
